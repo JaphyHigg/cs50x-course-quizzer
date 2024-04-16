@@ -1,6 +1,6 @@
 # cs50x-course-quizzer
 **Harvard CS50x Course Quizzer**  
-A self quiz program to help reinforce what i'm learning in the CS50x course.
+A self quiz program to help reinforce what i'm learning.
 
-## To-DO:
+## To-Do:
 - Fill out questions and answers
