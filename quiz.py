@@ -18,7 +18,7 @@ def menu():
         get_random()
     elif choice[0] == "2" or choice[0] == "p":
         week = input("Which week?: ").strip()
-        if week not in ("012345678910"):
+        if week not in ("12345678910"):
             menu()
         get_random(week)
     else:
@@ -26,8 +26,10 @@ def menu():
 
 
 def get_random(w_num = None):
+    specific_week = True
     if w_num == None:
-        w_num = str(random.randint(1,1))
+        specific_week = False
+        w_num = str(random.randint(0,1))
     week_picked = "week" + w_num
     week = getattr(questions, week_picked)
     w_len = len(week)
@@ -45,13 +47,16 @@ def get_random(w_num = None):
     print()
     print(week[q_index][0]['answer'])
     print()
-    sub_menu()
+    if specific_week == True:
+        sub_menu(w_num)
+    else:
+        sub_menu()
 
 
-def sub_menu():
+def sub_menu(w_num = None):
     choice = input("Press enter for next question, or type exit or main: ").strip().lower()
     if choice == "":
-        get_random()
+        get_random(w_num)
     elif choice[0] == "e":
         sys.exit()
     elif choice[0] == "m":

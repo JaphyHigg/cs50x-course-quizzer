@@ -1,8 +1,29 @@
-week0 = []
+week0 = [
+  [{"question" : "What is binary?",
+  "answer" : "Binary is the base-2 number system that computers count in. It uses only 0 and 1 to represent all its values. "}],
+  [{"question" : "What is a bit?",
+  "answer" : "A bit is a 0 (off) or a 1 (on) on a computer. The term comes from binary digit. Computers are made of transistors that are being turned on and off in huge quantities, which represent all types of data."}],
+  [{"question" : "What is a byte?",
+  "answer" : "A byte is 8 bits."}],
+  [{"question" : "What is ASCII?",
+  "answer" : "ASCII (American Standard Code for Information Interchange) is a character encoding standard that was created to map specific letters to specific numbers, so they could be represented on computers. Each character is represented by a number between 0 and 127. For example 'A' is 65 and 'a' is 97."}],
+  [{"question" : "What is Unicode?",
+  "answer" : "Unicode is a computing industry standard designed to encode characters used in written languages around the world. It allows for the use of over a million unique characters (far beyond ASCII's 128). Unicode includes emoji, symbols, and most languages. Unicode is maintained by the Unicode Consortium non-profit organization."}],
+  [{"question" : "What is RGB?",
+  "answer" : "RGB stands for red, green, blue. It is a combination of three numbers used to represent color in computers."}],
+  [{"question" : "What is pseudocode?",
+  "answer" : "Pseudocode is human-readable version of your code. It is often written before coding to help you think through the logic the the problems you'll be solving."}],
+  [{"question" : "What is Scratch?",
+  "answer" : "A visual programming language developed by MIT."}],
+  [{"question" : "What is a conditional?",
+  "answer" : "Conditionals are an essential building block of programming, where the program looks to see if a specific condition has been met. If a condition is met, the program does something."}]
+]
 
 week1 = [
+    [{"question" : "...",
+  "answer" : "..."}],
 [{"question" : "What is a compiler?",
-  "answer" : "A compiler is a piece of software that takes source code and turns it into machine code"}],
+  "answer" : "A compiler is a piece of software that takes a particular programming language's program code (source code) and turns it into object code (aka machine language, machine code) that a computer's processor uses."}],
 [{"question" : "What are 3 axes that code can be evaluated on?",
   "answer" : "1) Correctness - does the code run as intended?\n2) Design - how well if the code designed?\n3) Style - how aesthetically pleasing and consistent is the code?"}],
 [{"question" : "How do you run a program in C?",
@@ -13,7 +34,28 @@ week1 = [
     "answer" : "1) while\n2) for\n3) do ... while"}],
  [{"question" : "[C] - What are 3 different ways I can increment/decrement a variable by 1?",
     "answer" : "1) variable = variable + 1\n2) variable += 1\n3) variable++\n[Replace + with - for decrement]"}], 
-
+[{"question" : "[C] - How do you print the main types of variables in CS50x?",
+  "answer" : "Using a the printf function and a placeholder known as a format code.\nEx: printf('%s\\n', string_variable)\nString: %s\nInteger: %d\nLong Integer: %li\nFloat: %f\nChar: %c"}],
+[{"question" : "[C] - What is a char?",
+  "answer" : "A char is a variable that contains a single character. A char occupies 1 byte of memory. Char can be signed or unsigned, which means it can either range from -128 to 127 (signed char) or from 0 to 255 (unsigned char). When using char with letters, make sure to use single quotes around single letters."}],
+[{"question" : "[C] - How do you create and/or define a variable?",
+  "answer" : "You must first write what type of variable, and then name it.\nEx: int number;    or    int number, sum;\nThe above examples would create an int variable name number, or two int variables names number and sum.\nYou can create and define a variable at the same time.\nEx: int number = 0;"}],
+[{"question" : "What is abstraction?",
+  "answer" : "Abstraction is the art of simplifying our code such that it deals with smaller and smaller problems."}],
+[{"question" : "What is truncation?",
+  "answer" : "Truncation refers to reducing the number digits right of the decimal point. One way this occurs is when you divide integers and the result is not a whole number. Integers cannot have decimals, so whatever would follow the whole number gets cut off (aka truncated) instead of being rounded up or down."}],
+[{"question" : "What are 7 common command line commands (aka shell commands) and what do they do?",
+  "answer" : "cd: changes our current directory\ncp: copies files and directories\nls: listing files in a directory\nmkdir: make a directory\nmv: move (or rename) files and directories\nrm: remove (delete) files\nrmdir: remove (delete) directories"}],
+[{"question" : "[C] - Explain the syntax and convention around comments.",
+  "answer" : "The syntax is to write // before your comment.\nConventions in C would be to always leave a space after //, start your comment with a capital letter, leave comments above each function explaining what they do, leave a comment at the start of your file (above any #include) that explains what your program does."}],
+[{"question" : "[C] - What are the common data types used in this course?",
+  "answer" : "bool: a Boolean expression of either true or false\nchar: a single character like a or 2\nfloat: a floating-point value, or real number with a decimal value\ndouble: a floating-point value with more digits than a float\nint: integers up to a certain size (4292967295) or number of bits\nlong: integers with more bits, so they can count higher than an int\nstring: a string of characters"}],
+[{"question" : "What is integer overflow?",
+  "answer" : "Integer overflow is a condition that occurs when the result of an arithmetic operation, such as addition or multiplication, exceeds the maximum size that can be stored by the data type of the integer. For example, if you're using an 8-bit unsigned integer, the maximum value it can hold is 255. If you try to store 256 in it, it will overflow and wrap around to 0. This can lead to unexpected behavior in programs if not properly handled."}],
+[{"question" : "What is floating point imprecision?",
+  "answer" : "Floating point imprecision refers to the fact that some numbers cannot be represented exactly in binary floating point, which is the format computers use to handle decimal numbers. This can lead to small rounding errors. For example, the decimal number 0.1 cannot be represented exactly as a base 2 fraction, resulting in a small error when it's stored as a floating point number. This is why you might see strange results when comparing floating point numbers for equality."}],
+[{"question" : "[C] - How much memory is available to an integer?",
+  "answer" : "A integer is typically 4 bytes aka 32 bits. A 4-byte integer can store values from -2,147,483,648 to 2,147,483,647 or from 0 to 4,292,967,295."}],
   ]
 
 week2 = []
