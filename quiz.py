@@ -7,12 +7,10 @@ def main():
 
 def menu():
     os.system("clear")
-    print("CS50x Self Quizzer")
-    print()
+    print("CS50x Self Quizzer\n")
     print("1. Random question")
     print("2. Particular week's random question")
-    print("3. Exit")
-    print()
+    print("3. Exit\n")
     choice = input("Your selection: ").strip().lower()
     if choice[0] == "1" or choice[0] == "r":
         get_random()
@@ -35,18 +33,13 @@ def get_random(w_num = None):
     w_len = len(week)
     q_index = random.randint(0,(w_len-1))
     os.system("clear")
-    print(f"From Week {w_num}:")
-    print()
-    print(week[q_index][0]['question'])
-    print()
+    print(f"From Week {w_num}:\n")
+    print(week[q_index][0]['question'] + "\n")
     advance = input("Press enter to reveal answer ")
     os.system("clear")
-    print(f"From Week {w_num}:")
-    print()
-    print(week[q_index][0]['question'])
-    print()
-    print(week[q_index][0]['answer'])
-    print()
+    print(f"From Week {w_num}:\n")
+    print(week[q_index][0]['question'] + "\n")
+    print(week[q_index][0]['answer'] + "\n")
     if specific_week == True:
         sub_menu(w_num)
     else:
