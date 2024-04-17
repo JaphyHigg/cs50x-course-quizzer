@@ -1,6 +1,6 @@
-import sys, os, random, questions, time
+import sys, os, random, questions
 
-seen = []
+seen = [[],[]]
 
 def main(weeks = None):
     weeks = get_questions()
@@ -36,6 +36,7 @@ def menu(weeks):
             print("Invalid choice, please choose option 1, 2, or 3.")
             continue
 
+
 def get_random(weeks, w_num = None):
     global seen
     specific_week = True
@@ -47,9 +48,10 @@ def get_random(weeks, w_num = None):
     w_len = len(week)
     q_index = random.randint(0,(w_len-1))
     os.system("clear")
-    if len(seen) == w_len:
-        seen = []
-    if week[q_index][0] not in seen:
+    w_num_int = int(w_num)
+    if len(seen[w_num_int]) == w_len:
+        seen[w_num_int] = []
+    if week[q_index][0]['question'] not in seen[w_num_int]:
         print(f"From Week {w_num}:\n")
         print(week[q_index][0]['question'] + "\n")
         advance = input("Press enter to reveal answer ")
@@ -57,7 +59,15 @@ def get_random(weeks, w_num = None):
         print(f"From Week {w_num}:\n")
         print(week[q_index][0]['question'] + "\n")
         print(week[q_index][0]['answer'] + "\n")
-        seen.append(week[q_index][0])
+        seen[w_num_int].extend({week[q_index][0]['question']})
+        # print("{week[q_index][0]['question']} = ", {week[q_index][0]['question']})
+        # print()
+        # print(seen)
+        # print()
+        # print("len(seen[0]) = ", len(seen[0]))
+        # print("len(seen[1]) = ", len(seen[1]))
+        # print("w_len = ", w_len)
+        # print()
         if specific_week:
             return sub_menu(weeks, w_num)
         return sub_menu(weeks)
