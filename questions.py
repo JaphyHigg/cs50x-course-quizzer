@@ -67,7 +67,11 @@ week1 = [
 [{"question" : "[C] - What is a double? How much memory can it use?",
   "answer" : "A double in C is a data type that is used to store decimal numbers (real numbers), where the precision is typically double that of a float. It can represent very large (or very small) numbers. The exact amount of memory a double uses can vary, but in most systems, it's 8 bytes (64 bits). This allows it to have a larger range and greater precision than a float."}],
 [{"question" : "[C] - What do you need to do if you define a function but your main function calls it before the definition appears in your code?",
-  "answer" : "You need to copy the first line of your function (the output + name + arguments) and paste it at the top of your file, below any #include but above the main function. These are called function prototypes or function declarations.\n\nThis is necessary because in C the file is read top to bottom, and the compiler will try to run your function before it knows what it is."}]
+  "answer" : "You need to copy the first line of your function (the output + name + arguments) and paste it at the top of your file, below any #include but above the main function. These are called function prototypes or function declarations.\n\nThis is necessary because in C the file is read top to bottom, and the compiler will try to run your function before it knows what it is."}],
+[{"question" : "[C] - If you have a switch statement conditional, what happens if you don't 'break;' at the end of a case?",
+  "answer" : "You will continue ('fall through') to the next case side-effect. This can be useful in some cases, but can lead to unexpected behavior if not used intentionally."}],
+[{"question" : "What is a ternary operator?",
+  "answer" : "A conditional format used for writing trivially small conditionals. Also known as '?:'.\nEx: int x = (expression) ? 5 : 6;\nThe above conditional is a shorter way to write\nint x;\nif (expression)\n{\nx = 5;\n}\nelse\n{\nx = 6;\n}"}]
   ]
 
 week2 = [
