@@ -1,6 +1,6 @@
 import sys, os, random, questions
 
-seen = [[],[]]
+seen = [[],[],[]]
 
 def main(weeks = None):
     weeks = get_questions()
@@ -8,7 +8,7 @@ def main(weeks = None):
 
 
 def get_questions():
-    weeks = {"w0" : questions.week0, "w1" : questions.week1}
+    weeks = {"w0" : questions.week0, "w1" : questions.week1, "w2" : questions.week2}
     return weeks
 
 
@@ -24,9 +24,9 @@ def menu(weeks):
             get_random(weeks)
         elif choice == "2" or choice[0] == "p":
             while True:
-                w_num = input("Which week? (0 or 1): ").strip()
+                w_num = input("Which week? (0, 1, or 2): ").strip()
                 #if w_num not in ("0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"):
-                if w_num not in ("0", "1"):
+                if w_num not in ("0", "1", "2"):
                     continue
                 else:
                     get_random(weeks, w_num)
@@ -42,7 +42,7 @@ def get_random(weeks, w_num = None):
     specific_week = True
     if w_num == None:
         specific_week = False
-        w_num = str(random.randint(0,1))
+        w_num = str(random.randint(0,2))
     week_picked = "w" + w_num
     week = weeks[week_picked]
     w_len = len(week)
@@ -60,14 +60,6 @@ def get_random(weeks, w_num = None):
         print(week[q_index][0]['question'] + "\n")
         print(week[q_index][0]['answer'] + "\n")
         seen[w_num_int].extend({week[q_index][0]['question']})
-        # print("{week[q_index][0]['question']} = ", {week[q_index][0]['question']})
-        # print()
-        # print(seen)
-        # print()
-        # print("len(seen[0]) = ", len(seen[0]))
-        # print("len(seen[1]) = ", len(seen[1]))
-        # print("w_len = ", w_len)
-        # print()
         if specific_week:
             return sub_menu(weeks, w_num)
         return sub_menu(weeks)
