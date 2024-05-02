@@ -1,6 +1,6 @@
 import sys, os, random, questions
 
-seen = [[],[],[]]
+seen = [[],[],[],[]]
 
 def main(weeks = None):
     weeks = get_questions()
@@ -8,7 +8,7 @@ def main(weeks = None):
 
 
 def get_questions():
-    weeks = {"w0" : questions.week0, "w1" : questions.week1, "w2" : questions.week2}
+    weeks = {"w0" : questions.week0, "w1" : questions.week1, "w2" : questions.week2, "w3" : questions.week3}
     return weeks
 
 
@@ -24,9 +24,9 @@ def menu(weeks):
             get_random(weeks)
         elif choice == "2" or choice[0] == "p":
             while True:
-                w_num = input("Which week? (0, 1, or 2): ").strip()
+                w_num = input("Which week? (0, 1, 2 or 3): ").strip()
                 #if w_num not in ("0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"):
-                if w_num not in ("0", "1", "2"):
+                if w_num not in ("0", "1", "2", "3"):
                     continue
                 else:
                     get_random(weeks, w_num)
@@ -42,7 +42,7 @@ def get_random(weeks, w_num = None):
     specific_week = True
     if w_num == None:
         specific_week = False
-        w_num = str(random.randint(0,2))
+        w_num = str(random.randint(0,3))
     week_picked = "w" + w_num
     week = weeks[week_picked]
     w_len = len(week)

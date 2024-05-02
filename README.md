@@ -67,3 +67,35 @@ A self quiz program to help reinforce what i'm learning.
 18) In your main function, what can you replace void with in 'int main(void)'?
 19) What happens if you try to access an index of argv that doesn't exist?
 20) When accessing the index of an array, can you use negative values? As in array_name[-1], perhaps attempting to get the last value in the array.
+21) What is a magic number?
+22) What is casting and how do you do it?
+23) Can a function in C return multiple values?
+24) What is scope?
+25) How are variables passed to functions in C, and what impact does this have on the variables' original values?
+26) What are garbage values?
+
+#### Week 3 - Algorithms
+1) What is an algorithm?
+2) What is linear search? How does it work? What time complexity does it have?
+3) What is binary search? How does it work? What time complexity does it have?
+4) What is the difference between linear search and binary search in terms of efficiency?
+5) What is an algorithms' time complexity?
+6) What is the difference between O(n) and O(n^2) in terms of time complexity?
+7) What is the concept of space complexity?
+8) [C] - How can you compare if two strings are the same?
+9) How does the bubble sort algorithm work? What time complexity does it have?
+10) How does the selection sort algorithm work? What time complexity does it have?
+11) How does the insertion sort algorithm work? What time complexity does it have?
+12) What is the difference between bubble sort, selection sort, and insertion sort in terms of efficiency?
+13) What is the concept of a base case in a recursive algorithm?
+14) What is a divide and conquer algorithm?
+15) How does a merge sort algorithm work? What time complexity does it have?
+16) What is a quicksort algorithm? How does it work? What time complexity does it have?
+17) [C] - What is a struct?
+18) What does asymptotically mean?
+19) What is recursion?
+20) What is runtime?
+
+
+
+
