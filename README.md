@@ -82,7 +82,7 @@ A self quiz program to help reinforce what i'm learning.
 5) What is an algorithms' time complexity?
 6) What is the difference between O(n) and O(n^2) in terms of time complexity?
 7) What is the concept of space complexity?
-8) [C] - How can you compare if two strings are the same?
+8) How can you compare if two strings are the same?
 9) How does the bubble sort algorithm work? What time complexity does it have?
 10) How does the selection sort algorithm work? What time complexity does it have?
 11) How does the insertion sort algorithm work? What time complexity does it have?
@@ -91,11 +91,39 @@ A self quiz program to help reinforce what i'm learning.
 14) What is a divide and conquer algorithm?
 15) How does a merge sort algorithm work? What time complexity does it have?
 16) What is a quicksort algorithm? How does it work? What time complexity does it have?
-17) [C] - What is a struct?
+17) What is a struct?
 18) What does asymptotically mean?
 19) What is recursion?
 20) What is runtime?
 
+### Week 4 - Memory
+1) What number system is typically used for computer memory?
+2) What is the convention for signaling that a number is in hexadecimal?
+3) What is the 'address of' operator? What does it do?
+4) What is the 'dereference' operator? What does it do?
+5) What is the format code for printing addresses in memory?
+6) What is a pointer? What is the syntax for making one?
+7) What is the difference * being used during the creation of a pointer, and * being use outside of the creation of a pointer?
+8) How much memory does a pointer typically use, traditionally and in modern computers?
+9) What is the relationship between a string and a pointer? Why is the null character, \0, important?
+10) In the context of pointers and memory, what are strings actually? 
+11) What is malloc? How do you use it?
+12) What is Valgrind? How do you use it?
+13) What does 'free' do and when do you use it?
+14) What are garbage values?
+15) What does it mean to pass by value (aka pass by copy) and pass by reference? What is the difference?
+16) What is the relationship between the stack and the heap?
+17) What is heap overflow and stack overflow? Buffer overflow?
+18) How can you get user input without using the cs50.h built-in get_... functions?
+19) What is a segmentation fault error?
+20) Why is scanf dangerous to use with strings?
+21) What are some of the common file I/O functions and what do they do?
+22) What is a buffer?
+23) Why is NULL important when using pointers?
+24) Why is hexadecimal (base-16) useful?
+25) Why use pointers?
+26) Explain the call stack.
+27) What is EOF?
 
 
 
