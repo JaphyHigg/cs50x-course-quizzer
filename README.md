@@ -125,5 +125,17 @@ A self quiz program to help reinforce what i'm learning.
 26) Explain the call stack.
 27) What is EOF?
 
-
-
+#### Week 5 - Data Structures
+1) How are stacks and queues different?
+2) What is a linked list and how are they structured?
+3) What is metadata?
+4) Why can't you use binary search on a linked list?
+5) What is the time complexity of adding to a linked list? How about searching a linked list?
+6) What does a hash map function do?
+7) What is a hash table?
+8) What are tries, in the context of data structures?
+9) [C] - Explain the arrow operator.
+10) What are the differences between singly linked lists and doubly linked lists?
+11) Why is keeping track of the head of a linked list important? Relating to this point, how do you add a new node to the beginning of a linked list? Why would you want to prepend instead of append to a linked list?
+12) What makes a good hash function?
+13) What is a hash function collision? How do you work around it?
