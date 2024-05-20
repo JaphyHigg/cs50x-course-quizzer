@@ -46,7 +46,7 @@ A self quiz program to help reinforce what i'm learning.
 23) If you have a switch statement conditional, what happens if you don't 'break;' at the end of a case?
 24) What is a ternary operator?
 
-#### Week 2 - Arrays in C 
+#### Week 2 - Arrays
 1) Beyond allowing you to run your program with './filename' what does the terminal command 'make' do?
 2) Compiling (with clang) is just one of 4 steps in turning source code in to machine code; what are the 4 steps, in order?
 3) What is reverse engineering?
@@ -134,8 +134,28 @@ A self quiz program to help reinforce what i'm learning.
 6) What does a hash map function do?
 7) What is a hash table?
 8) What are tries, in the context of data structures?
-9) [C] - Explain the arrow operator.
+9) Explain the arrow operator.
 10) What are the differences between singly linked lists and doubly linked lists?
 11) Why is keeping track of the head of a linked list important? Relating to this point, how do you add a new node to the beginning of a linked list? Why would you want to prepend instead of append to a linked list?
 12) What makes a good hash function?
 13) What is a hash function collision? How do you work around it?
+
+#### Week 6 - Python
+1) How does Python differ from C in terms of syntax and usage?
+2) What are Python's data types and how do they compare to C's data types?
+3) How do you define a function in Python?
+4) What is an interpreter? How is this different from a compiler?
+5) What are Python modules and how do you import them?
+6) What is a method?
+7) What is object oriented programming?
+8) What does Pythonic mean?
+9) What is the Pythonic convention for naming a variable (for a loop) you will not need to use? 
+10) What is a named parameter?
+11) What is an exception? What is the syntax for using them?
+12) What is a list? What is the difference between a list in Python and an array in C?
+13) How does a for-else loop work?
+14) What is a dictionary in python? How do you make and use one?
+15) How do you use list comprehensions in Python?
+16) What is the purpose of Python's None keyword?
+17) How do you read and write files in Python?
+18) What are Python classes and how do you define them?
