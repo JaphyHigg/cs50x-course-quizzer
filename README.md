@@ -96,7 +96,7 @@ A self quiz program to help reinforce what i'm learning.
 19) What is recursion?
 20) What is runtime?
 
-### Week 4 - Memory
+#### Week 4 - Memory
 1) What number system is typically used for computer memory?
 2) What is the convention for signaling that a number is in hexadecimal?
 3) What is the 'address of' operator? What does it do?
@@ -159,3 +159,23 @@ A self quiz program to help reinforce what i'm learning.
 16) What is the purpose of Python's None keyword?
 17) How do you read and write files in Python?
 18) What are Python classes and how do you define them?
+
+#### Week 7 - SQL
+1) What is SQL?
+2) What is a flat-file database?
+3) What is CRUD?
+4) What is SQLite?
+5) What is schema and how do you use it?
+6) In a schema call, what does FOREIGN KEY(...) and PRIMARY KEY(...) mean?
+7) What are relational databases?
+8) In relational databases, what are one-to-one, one-to-many, and many-to-many relationships?
+9) How do you create a table?
+10) When JOINing tables with one-to-many relationships, why is duplication/repetition of cells ok?
+11) What are indexes?
+12) What is a B-tree?
+13) What is a race condition and how can it be addressed?
+14) What is a SQL injection attack?
+15) What are Database Management Systems and what are some examples of them?
+16) What is an aggregate function?
+17) What are the two ways you can combine tables?
+18) How does the LIKE keyword work?
