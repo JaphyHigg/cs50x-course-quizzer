@@ -179,3 +179,27 @@ A self quiz program to help reinforce what i'm learning.
 16) What is an aggregate function?
 17) What are the two ways you can combine tables?
 18) How does the LIKE keyword work?
+
+#### Week 8 - HTML, CSS, Javascript, and the Internet
+1) What are access points? What are some examples of them?
+2) What is a packet?
+3) What is TCP/IP?
+4) What are port numbers?
+5) What is DNS? DHCP?
+6) What is HTTP?
+7) What is curl?
+8) What is HTML?
+9) [HTML] - What are tags and attributes?
+10) [HTML] - What are meta tags?
+11) What is an HTML entity? How are they used?
+12) [HTML] - What are some things that are generally located in the <head> of an HTML file?
+13) What is CSS?
+14) What are three different ways CSS can be added to a webpage?
+15) [CSS] - What is a class? What is an id? How are they used? How are they different?
+16) What is Bootstrap?
+17) What is Javascript?
+18) What are two different ways Javascript can be added to a webpage?
+19) What is an anonymous function?
+20) In a broad sense, what are the roles/relationships between HTML, CSS, and Javascript?
+21) What is the DOM?
+22) What is jQuery?
